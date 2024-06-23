@@ -1,0 +1,238 @@
+/* NavBar */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+    }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+       background-color: white;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .nav-links.show {
+        display: flex;
+    }
+
+    .nav-links li {
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .nav-links li:hover {
+        border: 0.5px solid #0073e6;
+        padding: 5px;
+    }
+    
+    .contact-button {
+        display: none;
+    }
+
+    .hamburger {
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+        padding: 10px;
+    }
+
+    .bar {
+        width: 25px;
+        height: 3px;
+        background-color: #000;
+        margin: 3px 0;
+    }
+}
+
+
+/* Hero and Next Section */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+
+    .next-section-content {
+        flex-direction: column;
+    }
+
+    .next-section .community-image,
+    .next-section-text {
+        width: 100%;
+    }
+
+    .next-section h2 {
+        font-size: 1.5rem;
+    }
+
+    .next-section p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 1023px) {
+    .next-section .community-image {
+        width: 80%; 
+        height: auto; 
+    }
+}
+
+@media (max-width: 767px) {
+    .next-section .community-image {
+        width: 100%; 
+        height: auto;
+    }
+}
+
+@media (max-width: 767px) {
+    .features-section {
+        padding: 30px 15px;
+    }
+
+    .features-section h2 {
+        font-size: 1.8rem;
+        margin-bottom: 20px;
+    }
+    
+    .feature h3 {
+        font-size: 1.4rem;
+    }
+    
+    .feature p {
+        font-size: 1rem;
+    }
+}
+
+/* Footer */
+@media (max-width: 767px) {
+    .footer .footer-row {
+        flex-direction: column;
+    }
+
+    .footer .footer-column {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}
+
+
+/* About us */
+@media (max-width: 767px) {
+    .AboutUs {
+        padding: 3rem;
+        gap: 3rem;
+    }
+
+    .AboutUs .Section_One h1 {
+        font-size: 2rem;
+    }
+
+    .AboutUs .Section_One p {
+        width: 90%;
+        font-size: 1rem;
+    }
+
+    .AboutUs .Section_Two {
+        flex-direction: column;
+        width: 90%;
+        padding: 1rem;
+    }
+
+    .AboutUs .Section_Two img,
+    .AboutUs .Section_Two p {
+        width: 100%;
+    }
+
+    .AboutUs .Section_Two p {
+        font-size: 1rem;
+        text-align: center;
+    }
+}
+
+
+/* Contact us */
+@media only screen and (max-width: 768px) {
+    .container {
+        padding: 2rem;
+        gap: 3rem;
+    }
+
+    .contact-info {
+        flex-direction: column;
+    }
+    
+    .contact-item {
+        margin: 10px 0;
+    }
+}
+
+
+/* programs */
+@media (max-width: 767px) {
+    .program {
+        flex-direction: column;
+    }
+
+    .program img, .program .program-content {
+        width: 100%;
+        border-right: none;
+    }
+
+    .program img {
+        border-bottom: 2px solid #ddd;
+    }
+}
+
+/* Communities */
+@media (max-width: 767px) {
+    .community-section h1 {
+        font-size: 2rem;
+    }
+
+    .community-section p {
+        font-size: 1rem;
+        margin-bottom: 20px;
+    }
+
+    .community-list {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .community-item {
+        max-width: 100%;
+        margin: 10px 0;
+        padding: 10px;
+        border-radius: 10px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .community-item img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+    }
+
+    .community-content h3 {
+        font-size: 1.5rem;
+    }
+
+    .community-content p {
+        font-size: 0.9rem;
+    }
+
+    .btn {
+        padding: 8px 16px;
+        font-size: 0.9rem;
+    }
+}

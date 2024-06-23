@@ -1,0 +1,181 @@
+/* NavBar */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .navbar {
+        padding: 10px 20px;
+    }
+
+    .logo {
+        margin-bottom: 10px;
+    }
+
+    .nav-links {
+        display: flex;
+        flex-direction: row;
+        width: auto;
+        position: static;
+        box-shadow: none;
+        background-color: transparent;
+        padding-right: 0px;
+    }
+
+    .logo img {
+        padding-top: 15px;
+    }
+
+    .nav-links li {
+        margin-bottom: 0;
+        text-align: center;
+    }
+
+    .contact-button {
+        display: inline-block;
+    }
+
+    .hamburger {
+        display: none;
+    }
+}
+
+/* Hero and Next Section */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero p {
+        font-size: 1.125rem;
+    }
+
+    .next-section-content {
+        flex-direction: column;
+    }
+
+    .next-section .community-image,
+    .next-section-text {
+        width: 100%;
+    }
+
+    .next-section h2 {
+        font-size: 1.75rem;
+    }
+
+    .next-section p {
+        font-size: 1.125rem;
+    }
+}
+
+/* Footer section */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .footer .footer-column {
+        width: calc(50% - 20px);
+        padding-bottom: 30px;
+    }
+}
+
+
+/* About US */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .AboutUs {
+        padding: 3rem;
+        gap: 4rem;
+    }
+
+    .AboutUs .Section_One h1 {
+        font-size: 2.25rem;
+    }
+
+    .AboutUs .Section_One p {
+        width: 80%;
+        font-size: 1.1rem;
+    }
+
+    .AboutUs .Section_Two {
+        flex-direction: column;
+        width: 80%;
+        padding: 1.5rem;
+    }
+
+    .AboutUs .Section_Two img,
+    .AboutUs .Section_Two p {
+        width: 100%;
+    }
+
+    .AboutUs .Section_Two p {
+        font-size: 1.1rem;
+        text-align: center;
+    }
+}
+
+/* Contact us */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .container {
+        padding: 2rem;
+        gap: 3rem;
+    }
+
+    .contact-info {
+        flex-direction: column;
+    }
+    
+    .contact-item {
+        margin: 10px 0;
+    }
+}
+
+
+
+/* Programs */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .container {
+        padding: 1.9rem;
+        gap: 3rem;
+    }
+
+    .program {
+        flex-direction: column;
+    }
+
+    .program img, .program .program-content {
+        width: 100%;
+        border-right: none;
+    }
+
+    .program img {
+        border-bottom: 2px solid #ddd;
+    }
+}
+
+
+/* Tablet Responsive Styles */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .community-section h1 {
+        font-size: 2.2rem;
+    }
+
+    .community-section p {
+        font-size: 1.1rem;
+    }
+
+    .community-list {
+        gap: 30px;
+    }
+
+    .community-item {
+        max-width: 48%;
+        margin: 10px 1%;
+    }
+
+    .community-content h3 {
+        font-size: 1.6rem;
+    }
+
+    .community-content p {
+        font-size: 1rem;
+    }
+
+    .btn {
+        padding: 9px 18px;
+        font-size: 1rem;
+        cursor: pointer;
+    }
+}

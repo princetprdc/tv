@@ -1,0 +1,100 @@
+/* General Page Style */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+    box-sizing: border-box;
+}
+
+/* ABOUT US PAGE STYLING */
+.AboutUs {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    padding: 2rem 1rem;
+}
+
+.AboutUs .Section_One {
+    background-color: #ffffff;
+    padding: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.AboutUs .Section_One h1 {
+   text-align: center;
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+    color: #0073e6;
+}
+
+.AboutUs .Section_One p {
+    width: 70%;
+    font-size: 1.2rem;
+    color: #555;
+    text-align: center;
+}
+
+.AboutUs .Section_Two {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background-color: #0073e6;
+    color: #fff;
+    width: 70%;
+    border-radius: 10px;
+    box-shadow: 6px 6px 5px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+}
+
+.AboutUs .Section_Two img {
+    width: 50%;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+.AboutUs .Section_Two p {
+    width: 50%;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+@media (min-width: 1024px) {
+    /* Desktop specific styles */
+    .AboutUs {
+        padding: 3rem 1rem;
+        gap: 6rem;
+    }
+
+    .AboutUs .Section_One h1 {
+        font-size: 3rem;
+    }
+
+    .AboutUs .Section_One p {
+        font-size: 1.3rem;
+    }
+
+    .AboutUs .Section_Two {
+        gap: 3rem;
+        padding: 3rem;
+    }
+
+    .AboutUs .Section_Two p {
+        font-size: 1.3rem;
+    }
+
+    .AboutUs .Section_Two p strong {
+        font-size: 1.5rem;
+    }
+}
