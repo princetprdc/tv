@@ -13,21 +13,3 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 });
-
-
-document.addEventListener('DOMContentLoaded', function () {
-    const hamburger = document.getElementById('hamburger');
-    const navLinks = document.getElementById('nav-links');
-
-    // Toggle the navigation menu when the hamburger is clicked
-    hamburger.addEventListener('click', function () {
-        navLinks.classList.toggle('active');
-    });
-
-    // Close the navigation menu when clicking outside of it
-    document.addEventListener('click', function (event) {
-        if (!hamburger.contains(event.target) && !navLinks.contains(event.target)) {
-            navLinks.classList.remove('active');
-        }
-    });
-});

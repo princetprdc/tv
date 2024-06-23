@@ -69,10 +69,12 @@ body {
 
 .nav-links a:hover {
     color: #0073e6; 
+    border-bottom: 2px solid #0073e6;
 }
 
 
-.contact-button {
+.contact-button, 
+.contact-button-mobile {
     background-color: #0073e6;
     color: white;
     padding: 10px 20px;
@@ -83,8 +85,15 @@ body {
     transition: background-color 0.3s ease; 
 }
 
-.contact-button:hover {
+.contact-button:hover, 
+.contact-button-mobile:hover  {
     background-color: #005bb5;
+}
+
+@media (min-width: 1024px) {
+    .contact-button-mobile {
+        display: none;
+    }
 }
 
 /* Hero Section */
@@ -329,12 +338,11 @@ body {
 
 .footer .footer-column ul li a {
     color: white;
-    text-decoration: none;
     font-size: 1rem;
 }
 
 .footer .footer-column ul li a:hover {
-    text-decoration: underline;
+    color: #0073e6;
 }
 
 .footer .footer-column p {
