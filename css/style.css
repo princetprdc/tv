@@ -107,6 +107,7 @@ body {
     align-items: center;
     flex-direction: column;
     overflow: hidden;
+    height: 70vh;
 }
 
 .hero::before {
@@ -138,6 +139,7 @@ body {
         -1px  1px 0 #ffffff,
          1px  1px 0 #ffffff;
     margin-bottom: 20px;
+    word-wrap: break-word;
 }
 
 

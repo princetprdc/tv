@@ -15,6 +15,9 @@
     <link rel="stylesheet" href="/css/mobileResponsive.css">
     <link rel="stylesheet" href="/css/tabletResponsive.css">
 
+    <!-- AOS Library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    
     <!-- Page Title img -->
     <link rel="icon" type="image/x-icon" href="/img/logo/logo-tittle.png">
 
@@ -25,19 +28,19 @@
     <!-- Navbar Container -->
     <div id="navbar-container"></div>
 
-    <section id="contact">
+    <section id="contact" data-aos="fade-up">
         <div class="container">
             <h1 id="page-tittle">Contact Us</h1>
-            <p>We're here to help and answer any question you might have. We look forward to hearing from you and are excited to collaborate on new projects and ideas. Reach out to us for any inquiries or feedback, and let's create something amazing together!</p>
+            <p data-aos="fade-right">We're here to help and answer any question you might have. We look forward to hearing from you and are excited to collaborate on new projects and ideas. Reach out to us for any inquiries or feedback, and let's create something amazing together!</p>
 
             <div class="contact-info">
-                <div class="contact-item">
+                <div class="contact-item" data-aos="fade-up" data-aos-delay="100">
                     <h3>General Inquiries</h3>
                     <p>Email: <a href="mailto:info@techvantage.com">info@techvantage.com</a></p>
                     <p>Phone: +123-456-7890</p>
                 </div>
 
-                <div class="contact-item">
+                <div class="contact-item" data-aos="fade-up" data-aos-delay="200">
                     <h3>Office Location</h3>
                     <p>TechVantage Inc.</p>
                     <p>123 Innovation Drive, Suite 456</p>
@@ -45,7 +48,7 @@
                     <p>Nigeria</p>
                 </div>
 
-                <div class="contact-item">
+                <div class="contact-item" data-aos="fade-up" data-aos-delay="300">
                     <h3>Follow Us</h3>
                     <p><a target="_blank" href="https://www.facebook.com/share/p/7ZN59jbZThArbYeo/?mibextid=xfxF2i"><img src="/img/icons/003-facebook.png" alt="Facebook"></a></p>
                     <p><a target="_blank" href="#"><img src="/img/icons/002-twitter.png" alt="Twitter"></a></p>
@@ -54,7 +57,7 @@
                 </div>
             </div>
 
-            <form class="contact-form">
+            <form class="contact-form" data-aos="fade-up" data-aos-delay="400">
                 <h3>Contact Form</h3>
                 <label for="name">Name</label>
                 <input type="text" id="name" name="name" required>
@@ -75,8 +78,15 @@
 
     <div id="footer-container"></div>
 
+    <!-- JavaScript Files -->
     <script src="/js/script.js"></script>
     <script src="/js/navbar.js"></script>
     <script src="/js/footer.js"></script>
+
+    <!-- AOS Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>

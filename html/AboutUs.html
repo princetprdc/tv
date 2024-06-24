@@ -18,11 +18,18 @@
     <link rel="stylesheet" href="/css/mobileResponsive.css" />
     <link rel="stylesheet" href="/css/tabletResponsive.css" />
 
+    <!-- AOS Library -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+    />
+    <link rel="stylesheet" href="/css/animation.css" />
+
     <!-- Page Tittle img -->
-    <link rel="icon" type="image/x-icon" href="/img/logo-tittle.png" />
+    <link rel="icon" type="image/x-icon" href="/img/logo/logo-tittle.png" />
 
     <!-- Page Tittle -->
-    <title>TechVantage</title>
+    <title>TechVantage - About us</title>
   </head>
   <body>
     <!-- Navbar Container -->
@@ -30,7 +37,7 @@
 
     <section>
       <div class="AboutUs">
-        <div class="Section_One">
+        <div class="Section_One" data-aos="fade-up">
           <h7 id="page-tittle">About us</h7>
           <p>
             TechVantage is a skill development brand designed for students in
@@ -42,28 +49,29 @@
           <p>
             Through our programs, students gain the expertise they need to excel
             in their chosen fields and have the opportunity to connect with
-            established figures, creating a dynamic platform for growth
-            and collaboration.
+            established figures, creating a dynamic platform for growth and
+            collaboration.
           </p>
         </div>
 
-        <div class="Section_Two">
+        <div class="Section_Two" data-aos="fade-right">
           <img
             src="/img/other/WhatsApp Image 2024-06-23 at 02.10.03_53107bb2.jpg"
+            data-aos="zoom-in"
           />
 
-          <p>
+          <p data-aos="fade-left">
             <strong>Mission:</strong>
             Empower tertiary students by transforming aspiring tech enthusiasts
             into professionals and fostering a strong network with peers and
             industry leaders.
           </p>
 
-          <p>
+          <p data-aos="fade-left" data-aos-delay="200">
             <strong>Vision:</strong>
             Be the top platform for tech education and community building in
-            tertiary institutions, nurturing the next generation
-            of tech leaders.
+            tertiary institutions, nurturing the next generation of tech
+            leaders.
           </p>
         </div>
       </div>
@@ -75,5 +83,11 @@
     <script src="/js/script.js"></script>
     <script src="/js/navbar.js"></script>
     <script src="/js/footer.js"></script>
+
+    <!-- AOS Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

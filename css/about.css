@@ -1,14 +1,3 @@
-/* General Page Style */
-* {
-    margin: 0;
-    padding: 0;
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-    font-variation-settings: "slnt" 0;
-    box-sizing: border-box;
-}
-
 /* ABOUT US PAGE STYLING */
 .AboutUs {
     background-color: #ffffff;
